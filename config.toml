@@ -1,8 +1,8 @@
 ##########################################
 # 站點配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主題 MemE"
+baseURL = "https://hfuhsu108.github.io/"
+title = "玩科學，玩科技"
 languageCode = "zh-TW"
 hasCJKLanguage = true
 # 版權資訊（支援 Markdown）
