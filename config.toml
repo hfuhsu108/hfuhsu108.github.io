@@ -96,17 +96,17 @@ uglyURLs = false
 # 作者資訊
 [author]
     # 名字
-    name = "reuixiy"
+    name = ""
     # 郵箱
-    email = "reuixiy@gmail.com"
+    email = "hfuhsu108@gmail.com"
     # 座右銘或簡介
-    motto = "Viva La Vida"
+    motto = "科學與科技，教與學"
     # 頭像
     avatar = "/icons/apple-touch-icon.png"
     # 網站（預設值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://hfuhsu108.github.io"
     # 推特
-    twitter = "reuixiy"
+    twitter = ""
 
 # 相關文章
 [related]
@@ -225,10 +225,10 @@ uglyURLs = false
     [[menu.main]]
         weight = 7
         identifier = "lang-switcher"
-    # [[menu.main]]
-    #     weight = 8
-    #     identifier = "search"
-    #     post = "search"
+    [[menu.main]]
+        weight = 8
+        identifier = "search"
+        post = "search"
 
 
 
@@ -343,11 +343,11 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站點的建立時間
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2022-02-02T12:00:00+00:00"
     # 注意：請保持此格式，更改數字
 
     # 站點的推特帳號
-    siteTwitter = "reuixiy"
+    siteTwitter = ""
     # 說明：用於 Twitter Cards
 
 
@@ -560,7 +560,7 @@ uglyURLs = false
     # KaTeX 公式支援（包括化學方程式）
 
     # 是否開啟（全域性設定）
-    enableKaTeX = false
+    enableKaTeX = true
     # 說明：文章的 Front Matter 中的 `katex`
     #      的優先順序高於此處
 
@@ -743,7 +743,7 @@ uglyURLs = false
     #      首頁佈局有效
 
     # 日期格式
-    postMetaDateFormat = "2006.1.2"
+    postMetaDateFormat = "2006/1/2"
     # 注意：請遵循格式 https://gohugo.io/functions/format/
 
     # 是否顯示釋出時間
@@ -779,7 +779,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否顯示不蒜子頁面瀏覽量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子頁面瀏覽量的圖示
     busuanziPagePVIcon = "eye"
     # 說明：僅在生產環境（production）下渲染
@@ -931,11 +931,11 @@ uglyURLs = false
     # 選單欄
     fontFamilyMenu = ""
     # 文章標題、文章副標題、列表標題、列表的年份和月份標題、相關文章標題、文章上下篇標題、表格的表頭、定義列表中的術語
-    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'Noto Sans Serif TC', serif"
     # 分節標題、目錄標題
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Noto Sans Serif TC', serif"
     # 程式碼、上標、文章元資訊、文章更新徽章、文章的 Git 版本資訊、極簡頁尾、不蒜子站點瀏覽計數
-    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyCode = "'Source Code Pro', 'Noto Sans Serif TC', monospace"
     # 引用
     fontFamilyQuote = ""
     # 文章目錄
@@ -945,7 +945,7 @@ uglyURLs = false
     # 頁尾
     fontFamilyFooter = ""
     # 主體
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Noto Sans Serif TC', serif"
 
     # 網路字型連結
     fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -1095,14 +1095,14 @@ uglyURLs = false
     msgIcon = "info"
 
     # 是否顯示反饋連結
-    displayFeedback = true
+    displayFeedback = false
     # 反饋連結的圖示
     feedbackIcon = "question"
     # 反饋連結的文字
     feedbackText = "Feedback"
 
     # 是否顯示編輯連結
-    displayEditLink = true
+    displayEditLink = false
     # 編輯連結的圖示
     editIcon = "edit"
     # 編輯連結的文字
@@ -1122,14 +1122,14 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    shareOnTwitter = true
+    shareOnTwitter = false
     shareOnFacebook = true
-    shareOnLinkedIn = true
-    shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
-    shareOnQQ = true
-    shareOnQzone = true
+    shareOnLinkedIn = false
+    shareOnTelegram = false
+    shareOnWeibo = false
+    shareOnDouban = false
+    shareOnQQ = false
+    shareOnQzone = false
 
     shareViaQRCode = true
 
@@ -1197,7 +1197,7 @@ uglyURLs = false
     # 返回頂部按鈕
 
     # 是否開啟
-    enableBackToTop = true
+    enableBackToTop = false
 
     # 是否開啟自動隱藏
     enableBackToTopAutoHide = true
@@ -1232,7 +1232,7 @@ uglyURLs = false
     displaySiteCreatedYear = true
 
     # 年份與作者之間的圖示，留空（""）則無
-    iconBetweenYearAndAuthor = "heart"
+    iconBetweenYearAndAuthor = ""
     # 圖示顏色
     iconColor = "#f06292"
     # 是否開啟圖示的跳動效果
@@ -1247,7 +1247,7 @@ uglyURLs = false
     # 自定義頁尾（支援 Markdown）
     customFooter = ""
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站訪客數"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站訪問量"
