@@ -1362,11 +1362,11 @@ uglyURLs = false
     #      次將生成的 algolia.json 文件上傳到
     #      Algolia
 
-    enableAlgoliaSearch = false
+    enableAlgoliaSearch = true
 
-    algoliaAppId = ""
-    algoliaApiKey = ""
-    algoliaIndexName = ""
+    algoliaAppId = "G9B2AB8TSY"
+    algoliaApiKey = "5fa0a7b68cc5afa1707041f343b86582"
+    algoliaIndexName = "hugo_blog_saerch"
     # 說明：https://www.algolia.com/
 
 
